@@ -1,0 +1,31 @@
+.Button
+  border: 0
+  background: 0
+  outline: 0
+  font-size: 1rem
+  cursor: pointer
+  text-decoration: none
+  font-weight: 600
+  padding: 0.5rem 1rem
+  background: #fff
+  border: 1px solid #dee2e6
+  border-radius: 4px
+  font-size: 0.875rem
+  &:hover
+    background: #f8f9fa
+  &.outline
+    background: 0
+    border: 1px solid #fff
+    color: #fff
+    &:hover
+      background: #fff
+      color: #00aced
+  &.active
+    background: #00aced
+    color: #fff
+    &:hover
+      background: #1c7ed6
+
+
+.Button + .Button
+  margin-left: 1rem
